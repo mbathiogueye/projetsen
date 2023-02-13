@@ -1,0 +1,631 @@
+/*--------------------------------------------------------------
+# Body
+--------------------------------------------------------------*/
+*{
+  margin: 0;
+  padding: 0;
+}
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/* nav {
+  
+} */
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background-color: #f8bf04;*/
+  
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  position: relative;
+  left: 140px;
+}
+
+nav a:hover {
+  background-color: #52024b;
+  border-radius: 10px;
+  padding: 3px;
+}
+/*--------------------------------------------------------------
+# profil
+--------------------------------------------------------------*/
+.profil{
+
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #52024b;
+}
+.profil img{
+  height: auto;
+  width: 450px;
+  border-radius: 100px;
+  border: 6px solid #f8bf04;
+  
+} 
+.profil-text{
+  width: 550px;
+}
+.main{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0vmax auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.profil-text h2{
+  color: #fff;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.profil-text h5{
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+.profil-text p{
+  color: #fcfcfc;
+  columns: #fcfc;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+span{
+  color: #f8bf04;
+  font-size: 30px;
+}
+button{
+  background-color: #f8bf04;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .4s;
+}
+button:hover{
+  background-color: transparent;
+  border: 2px solid #f8bf04;
+  cursor: pointer;
+}
+/*--------------------------------------------------------------
+# Formations et certifications
+--------------------------------------------------------------*/
+.Forma{
+  background-color: #52024b;
+  width: 100%;
+}
+.titre h2{
+  color: #f8bf04;
+  font-size: 75px;
+  width: 1130px;
+  margin: 0px auto;
+  text-align: center;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card{
+  height: 366px;
+    width: 288px;
+    padding: 20px 20px;
+    background: #f8bf04;
+    border-radius: 0px;
+    margin: 18px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+  font-size: 40px;
+  display: block;
+  text-align: center;
+  margin: 10px 0px;
+  color: #fff;
+}
+h5{
+  color: #52024b;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+.pra p{
+  color: #fff;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+.card .button{
+  background-color: #52024b;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 30px;
+  transition: .4s;
+}
+.card .button:hover{
+  background-color: transparent;
+  border: 2px solid #52024b;
+  cursor: pointer;
+}
+.text-center .h3{
+  vertical-align: inherit
+}
+/*--------------------------------------------------------------
+# Compétence
+--------------------------------------------------------------*/
+.container {
+  background-color: #52024b;
+  width: 100%;
+  padding: 100px 0;
+}
+.section-title h3 {
+  color: #f8bf04;
+  font-size: 75px;
+  width: 1130px;
+  margin: 0px auto;
+  text-align: center;
+}
+#Compétence .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0px;
+}
+#Compétence .progress .competence {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  background-color: #52024b;
+  color: #f8bf04;
+}
+
+#Compétence .progress .competence .val {
+  float: right;
+  font-style: normal;
+}
+
+#Compétence .progress-bar-wrap {
+  background:  #fff;
+  height: 10px;
+}
+
+#Compétence .progress-bar1 
+{
+  width: 500px;
+  height: 10px;
+  transition: 1.9s;
+  background-color: #f8bf04;
+}
+#Compétence .progress-bar2
+ {
+  width: 700px;
+  height: 10px;
+  transition: 1.9s;
+  background-color: #f8bf04;
+}
+#Compétence .progress-bar3
+ {
+  width: 600px;
+  height: 10px;
+  transition: 1.9s;
+  background-color: #f8bf04;
+}
+#Compétence .progress-bar4 
+{
+    width: 300px;
+    height: 10px;
+    transition: 1.9s;
+    background-color: #f8bf04;
+  }
+  .container {
+    background-color: #52024b(255, 255, 255, .1);
+    width: 100%;
+    padding: 100px 0;
+  }
+  .section-title h3 {
+    color: #f8bf04;
+    font-size: 75px;
+    width: 1430px;
+    margin-top: 105px;
+    background-color: #52024b;
+    text-align: center;
+  } 
+  
+
+  /*--------------------------------------------------------------
+# Qalité Personnelle
+--------------------------------------------------------------*/
+.navbar{
+  padding: 2rem 0;
+  list-style: none;
+  background-color: #52024b; 
+}
+.section-title .h4{ 
+  color: #52024b;
+  font-size: 75px;
+  width: 1130px;
+  margin: 0px;
+  text-align: center;
+
+}
+.divgene{
+  background-color: #52024b;
+}
+.QUAL{
+  position: relative;
+  text-align: center;
+  background-color: #52024b;
+  color: #f8bf04;
+  padding: 60px;
+  font-size: 80px;
+}
+.navbar Ul li a{
+  display: block;
+  padding: 2rem;
+  font-size: 2rem;
+  border: #52024b(255, 255, 255, .2);
+  background-color: #52024b;
+  border: 2rem; 
+}
+.navbar Ul li a:hover{
+  background-color: #52024b;
+  color: #f8bf04;
+  transition: none;
+  
+}
+ 
+
+  /*--------------------------------------------------------------
+# Expérience
+--------------------------------------------------------------*/
+
+.Forma  .card{
+  background-color: #f8bf04;
+  width: 40%;
+  height: 20%;
+  display: inline-flex;
+} 
+.Forma  .h4{
+  color: #f8bf04;
+  font-size: 75px;
+  width: 1130px;
+  margin: 0px auto;
+  position: relative;
+  left: 50vh;
+} .Forma  .card{
+  background-color: #f8bf04;
+  width: 40%;
+  height: 80%;
+  display: inline-flex;
+} 
+.titre .h5{
+ color:  #f8bf04;
+ font-size: 75px;
+  width: 40px;
+  margin: 20%;
+  text-align: center;
+}
+ .Forma  .card{
+  background-color: #f8bf04;
+  width: 40%;
+  height: 20%;
+  display: inline-flex;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card{
+  height: 366px;
+    width: 40px;
+    padding: 90px 40px;
+    background: #f8bf04;
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+  
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Reverences
+--------------------------------------------------------------*/
+#REfERENCES{ 
+  background-color:#52024b;
+  width: 100%;
+  padding: 100px;
+  margin-left: -399px;
+  margin-top: 10px;
+}
+.titre h6{
+background-color: #52024b;
+color: #f8bf04;
+font-size: 75px;
+width: 100%;
+margin: 0px auto;
+text-align: center;
+}
+
+.box-area{
+  display: flex;
+  align-items: center;
+  font-size :larger;
+  
+  flex-wrap: wrap;
+  justify-content:center ;
+  align-items: center;
+ }
+.alingle-box { 
+  position: relative;
+  display: flex;
+  flex-direction:5 column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: auto;
+  border-radius: 4px;
+  background-color: #52024b;
+  text-align: center;
+  margin: 60px;
+  padding: 10px;
+  transition: .3s;
+  border-radius: 100px;
+}
+.img-area img{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border: 30px solid #52024b;
+    border-radius: 900%; 
+    margin-bottom:200px;
+    padding:30px;
+    -webkit-background-size: cover;
+    background-size:cover ;
+    background-position:center center;
+         
+  }
+  .alingle-box:nth-child(5).img-area{
+    background-image:url(image5.jpg);
+    
+}
+
+
+   .alingle-box:nth-child(4).img-area{
+   background-image:url(image4.jpg);
+}
+
+
+.header-text{
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 40px;
+}
+ .img-text p{
+  font-size: 20px;
+font-weight: 900px;
+line-height:40px ;
+}
+
+.alingle-box:hover{
+  background: #f8bf04;
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Centres d'intéret
+--------------------------------------------------------------*/
+
+
+.section-bg{
+  position: relative;
+  bottom: -15vh;
+}
+.center{
+  background: #52024b;
+  height: 800px;
+  width: 100%;
+  padding: 10px 200px 20px;
+  margin-left: -200px;
+  margin-top: 0px;
+ }
+ .centree{
+  position: relative;
+  left: 20vh;
+
+ }
+ .titre .h7{
+  background-color: #52024b;
+  font-size: 75px;
+  width: 20px;
+  margin: 42px auto;
+  text-align: center;
+ }
+
+ 
+ .centre{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+   
+ }
+ /* .cout{ 
+  position: relative;
+   bottom: 245px;
+ }  */
+ .row-2{ 
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  margin-left: 150px;
+ }
+ /* .cardd{
+  position: relative;
+  bottom: 35vh;
+ } */
+ .box-5{
+  display: flex;
+  /*align-items: center;
+ font-size :larger;*/
+  flex-direction: column;
+  width: 410px;
+  height: 200;
+  border: 30px solid #f8bf04;
+  float: right;
+  margin: 0px 40px;
+  align-items: center;
+  text-align: justify;
+  padding: 10px;
+  border-radius: 15px;
+  background:linear-gradient(to top, #f8bf04  50%, #f8bf04 50%);
+  background-size: 100% 200 ;
+  transition: 2s;
+   
+ }
+
+
+ .box-5:hover{
+  transform: scale(1.3);
+  background-position: left bottom;
+  box-shadow: 1px 1px px #000;
+
+  color: #f8bf04;
+  bottom: none;
+  box-shadow: 0 0 20px #52024b;
+
+  }
+
+  .box-5 img{
+    width: 200px;
+    height: 90%;
+    background-color: #52024b;
+    padding: 20px;
+ }
+ .box-5:hover {
+ background: #f8bf04;
+ color: #f8bf04;
+}
+footer 
+{
+position: relative;
+width: 93%;
+background: #52024b;
+min-height: 100px;
+padding: 70px 50px;
+}
+.footer .social_icon
+{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px 0;
+
+}
+footer .social_icon li
+{
+list-style: none;
+}
+footer .social_icon li a
+{
+font-size: 2em;
+color: #52024b;
+margin: 0 10px;
+display: inline-block ;
+transition: 0.5%;
+}
+footer .social_icon li a :hover
+{ 
+transform:translateY(-05px);
+
+}
+.footer.menu li a
+{
+font: size 1.2em; 
+color: #52024b;
+margin: px 10px;
+display: inline-block;
+text-decoration: none;
+opacity: 0.75; 
+
+}
+.footer.menu li a :hover
+{
+opacity: 1;
+
+
+
+
+}
+
+/* social media icons styling */
+.social-icons {
+  font-size: 36px;
+  cursor: pointer;
+}
+.fa-facbook:hover,.fa-instagram:hover,.fa-twitch:hover,.fa-contact:hover.fa-NOMprenom:hover,.fa-fromlouga
+{
+  color: #f8bf04;
+}
+.fab {
+  color:#f8bf04;
+}
+/* footer styling */
+#footer {
+  background-color: #f8bf04;
+  text-align: center;
+}
+/* spacing on all section */
+#about, #services, #portfolio, #contact {
+  margin-top: 18rem;
+  padding-top: 5rem;
+}
+#contact {
+  padding-bottom: 10rem;
+}
+.social-iconsmt-4 a i{
+    color: #52024b;
+    font-size: 40px;
+}
+
+
+  
